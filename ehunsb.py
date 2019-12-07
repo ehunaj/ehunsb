@@ -12,7 +12,7 @@ from googletrans import Translator
 
 botStart = time.time()
 
-cl = LINE("ELgJEDYsTiwglxHGAQhd.bNThAn2m83UdWG0//5YwNq.+NxTh2hHFXF0JfscKfdI5DzTjIvynscpb/ll3MBDiKI=")
+cl = LINE()
 cl.log("Auth Token : " + str(cl.authToken))
 readOpen = codecs.open("read.json","r","utf-8")
 settingsOpen = codecs.open("temp.json","r","utf-8")
