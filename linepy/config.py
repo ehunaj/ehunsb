@@ -36,5 +36,5 @@ class Config(object):
     EMAIL_REGEX = re.compile(r"[^@]+@[^@]+\.[^@]+")
 
     def __init__(self):
-        self.APP_NAME = ' IOSIPAD\x097.14.0\x09iPhone_OS\x0910.12.0'     #%s\t%s\t%s\t%s' % (self.APP_TYPE, self.APP_VER, self.SYSTEM_NAME, self.SYSTEM_VER)
+        self.APP_NAME = 'IOSIPAD\x097.14.0\x09iPhone_OS\x0910.12.0'     #%s\t%s\t%s\t%s' % (self.APP_TYPE, self.APP_VER, self.SYSTEM_NAME, self.SYSTEM_VER)
         self.USER_AGENT = 'Line/7.14.0'  #%s' % self.APP_VER
