@@ -249,7 +249,8 @@ class LineBot(object):
                             cl.acceptGroupInvitation(op.param1)
                             G = cl.getGroup(op.param1)
                             cl.leaveGroup(op.param1)
-                        else:                            cl.acceptGroupInvitation(op.param1)
+                        else:
+                            cl.acceptGroupInvitation(op.param1)
                             G = cl.getGroup(op.param1)
                             cl.findAndAddContactsByMid(op.param3)
                             cl.inviteIntoGroup(op.param1,hun["botteam"])
