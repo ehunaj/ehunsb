@@ -27,7 +27,7 @@ class Config(object):
         'LINE_SERVICES': '1459630796'
     }
 
-    APP_TYPE    = 'IOSIPAD\x097.18.1\x09iPhone_OS\x0910.12.0'      #ApplicationType._VALUES_TO_NAMES[368]
+    APP_TYPE    = ApplicationType.IOS
     #APP_VER     = '2.1.5'
     CARRIER     = '51089, 1-0'
     SYSTEM_NAME = 'Ehun'
@@ -36,5 +36,5 @@ class Config(object):
     EMAIL_REGEX = re.compile(r"[^@]+@[^@]+\.[^@]+")
 
     def __init__(self):
-        self.APP_NAME = 'IOSIPAD\x097.18.1\x09iPhone_OS\x0910.12.0'     #%s\t%s\t%s\t%s' % (self.APP_TYPE, self.APP_VER, self.SYSTEM_NAME, self.SYSTEM_VER)
-        self.USER_AGENT = 'Line/7.18.1'  #%s' % self.APP_VER
+        self.APP_NAME = 'IOSIPAD\x097.14.0\x09iPhone_OS\x0911.2.5'     #%s\t%s\t%s\t%s' % (self.APP_TYPE, self.APP_VER, self.SYSTEM_NAME, self.SYSTEM_VER)
+        self.USER_AGENT = 'Line/7.14.0'  #%s' % self.APP_VER
